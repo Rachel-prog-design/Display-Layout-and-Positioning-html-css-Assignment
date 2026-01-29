@@ -15,10 +15,21 @@ header{
 
 
 }
+.logo{
+    width: 14px;
+}
+.logo img{
+    height:20px;
+    width:;
+    border-radius:;
+    transition: transform 0.3s easy;
+}
 img{
     display: flex;
     width: 500px;
     grid-template-columns:2;
+    padding: 20px;
+
 }
 
 .card{
@@ -26,4 +37,5 @@ img{
     grid-template-columns: repeat(3, minmax(150px, 1fr));
     gap: 7px;
     margin-top: 20px;
+    padding: 20px;
 }
