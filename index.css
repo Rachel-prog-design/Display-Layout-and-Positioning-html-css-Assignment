@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin:30px;
+    background-color: rgb(165, 163, 163);
+   
+}
+header{
+    background-color: rgb(101, 212, 157);
+    padding: 40px;
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+
+
+}
