@@ -3,67 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Kepler-Kigali Campus</title>
+    <title>Kepler Kigali Campus</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<header> 
-    <nav class="navbar">
-        <div class="logo">
-        <img src="kpl.png" alt="Kepler Kigali Campus Logo">
-           
-        </div>
-    <div id="menu"> 
-        <a href="index.html"> Kepler-Kigali Campus </a>
-        
-    </div>
-</header>
 
 <body>
-    <div class="introduction">
-        
-    <title> Intoduction </title>
 
-    <p> This website is created to provide clear and helpful information about Kepler-Kigali Campus.<br>
-        It helps students, visitors, and new applicants learn more about the campus, including academic programs, <br>
-        campus facilities, student life, and important services available at Kepler.</p>
-    </div>
-    <ul> 
-        <li><a href="https://keplercollege.ac.rw/alumni-club/">Programs</a></li>
-        <li><a href="https://keplercollege.ac.rw/undergraduate-programs/"> Campus Gallery </a></li>
-        <li><a href="https://keplercollege.ac.rw/campus-information/">Student Life</a></li>
+<!-- ================= HEADER & NAVIGATION ================= -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="kpl.png" alt="Kepler Kigali Campus Logo">
+            <span>Kepler Kigali Campus</span>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Home</button>
+            <div class="dropdown-content">
+                <a href="#introduction">Introduction</a>
+                <a href="#services">Campus Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#announcements">Announcements</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- ================= INTRODUCTION ================= -->
+<section id="introduction" class="section intro-section">
+    <h1>Welcome to Kepler Kigali Campus</h1>
+    <p>
+        This website provides clear and helpful information about Kepler Kigali Campus.
+        It helps students, visitors, and applicants learn about programs, services, and campus life.
+    </p>
+
+    <ul>
+        <li>Academic programs</li>
+        <li>Student services</li>
+        <li>Campus facilities</li>
+        <li>Important announcements</li>
     </ul>
-    <section id="services" class="section services-section">
+</section>
+
+<!-- ================= CAMPUS SERVICES ================= -->
+<section id="services" class="section services-section">
     <h2>Campus Services</h2>
-    <p>This section highlights important services available on campus, including library, health center, and IT support.</p>
+    <p>Key services that support students on campus.</p>
+
     <div class="service-cards">
         <div class="card">
-            <img src="library.jpg" alt="Library Icon">
-            <img src="tech.avif" alt="Tech Icon">
-            <img src="sport.jpg" alt="Sport Icon">
-            
+            <img src="library.jpg" alt="Library">
+            <h3>Library</h3>
+            <p>Books, journals, and online academic resources.</p>
         </div>
 
-            <h3>Library</h3>
-            <br>
-            <p>Access to books, journals, and online resources.</p>
+        <div class="card">
+            <img src="tech.avif" alt="IT Support">
+            <h3>IT Support</h3>
+            <p>Technology assistance and computer labs.</p>
         </div>
-        <section id="services" class="section services-section">
-    <h2>Campus Services</h2>
-    <p>This section highlights important services available on campus, including library, health center, and IT support.</p>
-    
+
+        <div class="card">
+            <img src="sport.jpg" alt="Sports">
+            <h3>Sports & Wellness</h3>
+            <p>Facilities for fitness and recreation.</p>
+        </div>
     </div>
 </section>
 
-<!-- Section B: Campus Locations / Gallery -->
+<!-- ================= GALLERY ================= -->
 <section id="gallery" class="section gallery-section">
     <h2>Campus Locations & Gallery</h2>
-    <p>Explore various campus locations, facilities, and highlights.</p>
+    <p>Explore campus buildings and facilities.</p>
+
     <div class="gallery-grid">
-        <img src="building1.jpg" alt="Campus Building 1">
-        <img src="building2.jpg" alt="Campus Building 2">
-        
+        <img src="building1.jpg" alt="Campus Building">
+        <img src="building2.jpg" alt="Campus Area">
+        <img src="building3.jpg" alt="Student Space">
+    </div>
 </section>
 
+<!-- ================= ANNOUNCEMENTS ================= -->
+<section id="announcements" class="section announcements-section">
+    <h2>Announcements & Notices</h2>
+
+    <div class="notice sticky-notice">
+        📢 Registration for next semester closes on Friday!
+    </div>
+
+    <div class="notice">
+        🎓 Graduation rehearsal will be announced soon.
+    </div>
 </section>
+
+<!-- ================= DISPLAY BEHAVIOR ================= -->
+<section class="section display-section">
+    <h2>Display Behavior Demo</h2>
+    <p class="desktop-only">This text is visible only on larger screens.</p>
+    <p class="mobile-only">This text appears only on mobile screens.</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Kepler Kigali Campus</p>
+</footer>
+
 </body>
 </html>
